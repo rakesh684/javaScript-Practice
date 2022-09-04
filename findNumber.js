@@ -1,5 +1,5 @@
 function sevenBoom(arr) {
-    const result=arr.some(arr=>arr.toString().split('').includes('7'))
+    const result=arr.some(element=>element.toString().split('').includes('7'))
     if(result==true){
         console.log("Boom")
     }
@@ -14,4 +14,4 @@ function sevenBoom(arr) {
     // return console.log("there is no 7 in the array")
     }
    
-sevenBoom([2,3,4,5])
+sevenBoom([2,3,4,5,7])
