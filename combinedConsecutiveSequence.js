@@ -10,7 +10,7 @@ function sortConsecutive(arr1,arr2){
     }
         return true
 }
-const result=sortConsecutive([44, 46], [45])
+const result=sortConsecutive([44, 4], [45])
 if(result==true){
     console.log(true)
 }else{
