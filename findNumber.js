@@ -1,13 +1,17 @@
 function sevenBoom(arr) {
-	const result=arr.filter(arr=>
-        arr===7
-    )
-    // console.log(result)
-    if(result==""){
-        console.log("there is no 7 in the array")
-    }
-    else{
+    const result=arr.some(arr=>arr.toString().split('').includes('7'))
+    if(result==true){
         console.log("Boom")
     }
-}
-sevenBoom([2,3,4,5,7,7])
+    else{
+        console.log("there is no 7 in the array")
+    }
+	// for(let el of arr) {
+    //     if(el.toString().split('').includes('7')) {
+    //         return console.log("Boom!")
+    //     }
+    // }
+    // return console.log("there is no 7 in the array")
+    }
+   
+sevenBoom([2,3,4,5])
