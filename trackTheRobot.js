@@ -16,5 +16,5 @@ function trackRobot(N,E,S,W){
     a[0]=E-W
     return a
 }
-const result=trackRobot(20, 10)
+const result=trackRobot(20,30)
 console.log(result)
