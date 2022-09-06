@@ -14,4 +14,4 @@ function sevenBoom(arr) {
     // return console.log("there is no 7 in the array")
     }
    
-sevenBoom([2,3,4,5,7])
+sevenBoom([2,3,4,5,5])
